@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+description="FirewallD"
+command=/usr/sbin/firewalld
+command_args="--nofork --nopid"
+supervisor=supervise-daemon
+
+depend() {
+    need dbus
+    provide firewall
+}

@@ -1,0 +1,5 @@
+firewalld-openrc (0.0.1)  nitrux; urgency=medium
+
+  * Create package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 07 Dec 2025 01:26:00 -0500
